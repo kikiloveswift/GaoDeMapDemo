@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCDAA60E1C93CDB800201E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA60D1C93CDB800201E8C /* main.m */; };
+		FCDAA6111C93CDB800201E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA6101C93CDB800201E8C /* AppDelegate.m */; };
+		FCDAA6141C93CDB800201E8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA6131C93CDB800201E8C /* ViewController.m */; };
+		FCDAA6171C93CDB800201E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDAA6151C93CDB800201E8C /* Main.storyboard */; };
+		FCDAA6191C93CDB800201E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDAA6181C93CDB800201E8C /* Assets.xcassets */; };
+		FCDAA61C1C93CDB800201E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDAA61A1C93CDB800201E8C /* LaunchScreen.storyboard */; };
+		FCDAA6271C93CDB800201E8C /* GaoDeMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA6261C93CDB800201E8C /* GaoDeMapDemoTests.m */; };
+		FCDAA6321C93CDB800201E8C /* GaoDeMapDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA6311C93CDB800201E8C /* GaoDeMapDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCDAA6231C93CDB800201E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCDAA6011C93CDB800201E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCDAA6081C93CDB800201E8C;
+			remoteInfo = GaoDeMapDemo;
+		};
+		FCDAA62E1C93CDB800201E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCDAA6011C93CDB800201E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCDAA6081C93CDB800201E8C;
+			remoteInfo = GaoDeMapDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCDAA6091C93CDB800201E8C /* GaoDeMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaoDeMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDAA60D1C93CDB800201E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCDAA60F1C93CDB800201E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCDAA6101C93CDB800201E8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCDAA6121C93CDB800201E8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCDAA6131C93CDB800201E8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCDAA6161C93CDB800201E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCDAA6181C93CDB800201E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCDAA61B1C93CDB800201E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCDAA61D1C93CDB800201E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDAA6221C93CDB800201E8C /* GaoDeMapDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaoDeMapDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDAA6261C93CDB800201E8C /* GaoDeMapDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaoDeMapDemoTests.m; sourceTree = "<group>"; };
+		FCDAA6281C93CDB800201E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDAA62D1C93CDB800201E8C /* GaoDeMapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaoDeMapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDAA6311C93CDB800201E8C /* GaoDeMapDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaoDeMapDemoUITests.m; sourceTree = "<group>"; };
+		FCDAA6331C93CDB800201E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCDAA6061C93CDB800201E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDAA61F1C93CDB800201E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDAA62A1C93CDB800201E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCDAA6001C93CDB800201E8C = {
+			isa = PBXGroup;
+			children = (
+				FCDAA60B1C93CDB800201E8C /* GaoDeMapDemo */,
+				FCDAA6251C93CDB800201E8C /* GaoDeMapDemoTests */,
+				FCDAA6301C93CDB800201E8C /* GaoDeMapDemoUITests */,
+				FCDAA60A1C93CDB800201E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCDAA60A1C93CDB800201E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCDAA6091C93CDB800201E8C /* GaoDeMapDemo.app */,
+				FCDAA6221C93CDB800201E8C /* GaoDeMapDemoTests.xctest */,
+				FCDAA62D1C93CDB800201E8C /* GaoDeMapDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCDAA60B1C93CDB800201E8C /* GaoDeMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FCDAA60F1C93CDB800201E8C /* AppDelegate.h */,
+				FCDAA6101C93CDB800201E8C /* AppDelegate.m */,
+				FCDAA6121C93CDB800201E8C /* ViewController.h */,
+				FCDAA6131C93CDB800201E8C /* ViewController.m */,
+				FCDAA6151C93CDB800201E8C /* Main.storyboard */,
+				FCDAA6181C93CDB800201E8C /* Assets.xcassets */,
+				FCDAA61A1C93CDB800201E8C /* LaunchScreen.storyboard */,
+				FCDAA61D1C93CDB800201E8C /* Info.plist */,
+				FCDAA60C1C93CDB800201E8C /* Supporting Files */,
+			);
+			path = GaoDeMapDemo;
+			sourceTree = "<group>";
+		};
+		FCDAA60C1C93CDB800201E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCDAA60D1C93CDB800201E8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCDAA6251C93CDB800201E8C /* GaoDeMapDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCDAA6261C93CDB800201E8C /* GaoDeMapDemoTests.m */,
+				FCDAA6281C93CDB800201E8C /* Info.plist */,
+			);
+			path = GaoDeMapDemoTests;
+			sourceTree = "<group>";
+		};
+		FCDAA6301C93CDB800201E8C /* GaoDeMapDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCDAA6311C93CDB800201E8C /* GaoDeMapDemoUITests.m */,
+				FCDAA6331C93CDB800201E8C /* Info.plist */,
+			);
+			path = GaoDeMapDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCDAA6081C93CDB800201E8C /* GaoDeMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDAA6361C93CDB800201E8C /* Build configuration list for PBXNativeTarget "GaoDeMapDemo" */;
+			buildPhases = (
+				FCDAA6051C93CDB800201E8C /* Sources */,
+				FCDAA6061C93CDB800201E8C /* Frameworks */,
+				FCDAA6071C93CDB800201E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaoDeMapDemo;
+			productName = GaoDeMapDemo;
+			productReference = FCDAA6091C93CDB800201E8C /* GaoDeMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCDAA6211C93CDB800201E8C /* GaoDeMapDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDAA6391C93CDB800201E8C /* Build configuration list for PBXNativeTarget "GaoDeMapDemoTests" */;
+			buildPhases = (
+				FCDAA61E1C93CDB800201E8C /* Sources */,
+				FCDAA61F1C93CDB800201E8C /* Frameworks */,
+				FCDAA6201C93CDB800201E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCDAA6241C93CDB800201E8C /* PBXTargetDependency */,
+			);
+			name = GaoDeMapDemoTests;
+			productName = GaoDeMapDemoTests;
+			productReference = FCDAA6221C93CDB800201E8C /* GaoDeMapDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCDAA62C1C93CDB800201E8C /* GaoDeMapDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDAA63C1C93CDB800201E8C /* Build configuration list for PBXNativeTarget "GaoDeMapDemoUITests" */;
+			buildPhases = (
+				FCDAA6291C93CDB800201E8C /* Sources */,
+				FCDAA62A1C93CDB800201E8C /* Frameworks */,
+				FCDAA62B1C93CDB800201E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCDAA62F1C93CDB800201E8C /* PBXTargetDependency */,
+			);
+			name = GaoDeMapDemoUITests;
+			productName = GaoDeMapDemoUITests;
+			productReference = FCDAA62D1C93CDB800201E8C /* GaoDeMapDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCDAA6011C93CDB800201E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kong;
+				TargetAttributes = {
+					FCDAA6081C93CDB800201E8C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FCDAA6211C93CDB800201E8C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FCDAA6081C93CDB800201E8C;
+					};
+					FCDAA62C1C93CDB800201E8C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FCDAA6081C93CDB800201E8C;
+					};
+				};
+			};
+			buildConfigurationList = FCDAA6041C93CDB800201E8C /* Build configuration list for PBXProject "GaoDeMapDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCDAA6001C93CDB800201E8C;
+			productRefGroup = FCDAA60A1C93CDB800201E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCDAA6081C93CDB800201E8C /* GaoDeMapDemo */,
+				FCDAA6211C93CDB800201E8C /* GaoDeMapDemoTests */,
+				FCDAA62C1C93CDB800201E8C /* GaoDeMapDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCDAA6071C93CDB800201E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDAA61C1C93CDB800201E8C /* LaunchScreen.storyboard in Resources */,
+				FCDAA6191C93CDB800201E8C /* Assets.xcassets in Resources */,
+				FCDAA6171C93CDB800201E8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDAA6201C93CDB800201E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDAA62B1C93CDB800201E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCDAA6051C93CDB800201E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDAA6141C93CDB800201E8C /* ViewController.m in Sources */,
+				FCDAA6111C93CDB800201E8C /* AppDelegate.m in Sources */,
+				FCDAA60E1C93CDB800201E8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDAA61E1C93CDB800201E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDAA6271C93CDB800201E8C /* GaoDeMapDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDAA6291C93CDB800201E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDAA6321C93CDB800201E8C /* GaoDeMapDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCDAA6241C93CDB800201E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCDAA6081C93CDB800201E8C /* GaoDeMapDemo */;
+			targetProxy = FCDAA6231C93CDB800201E8C /* PBXContainerItemProxy */;
+		};
+		FCDAA62F1C93CDB800201E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCDAA6081C93CDB800201E8C /* GaoDeMapDemo */;
+			targetProxy = FCDAA62E1C93CDB800201E8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCDAA6151C93CDB800201E8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCDAA6161C93CDB800201E8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCDAA61A1C93CDB800201E8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCDAA61B1C93CDB800201E8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCDAA6341C93CDB800201E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCDAA6351C93CDB800201E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCDAA6371C93CDB800201E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GaoDeMapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.GaoDeMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCDAA6381C93CDB800201E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GaoDeMapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.GaoDeMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCDAA63A1C93CDB800201E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GaoDeMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.GaoDeMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaoDeMapDemo.app/GaoDeMapDemo";
+			};
+			name = Debug;
+		};
+		FCDAA63B1C93CDB800201E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GaoDeMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.GaoDeMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaoDeMapDemo.app/GaoDeMapDemo";
+			};
+			name = Release;
+		};
+		FCDAA63D1C93CDB800201E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GaoDeMapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.GaoDeMapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GaoDeMapDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FCDAA63E1C93CDB800201E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GaoDeMapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.GaoDeMapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GaoDeMapDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCDAA6041C93CDB800201E8C /* Build configuration list for PBXProject "GaoDeMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDAA6341C93CDB800201E8C /* Debug */,
+				FCDAA6351C93CDB800201E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDAA6361C93CDB800201E8C /* Build configuration list for PBXNativeTarget "GaoDeMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDAA6371C93CDB800201E8C /* Debug */,
+				FCDAA6381C93CDB800201E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCDAA6391C93CDB800201E8C /* Build configuration list for PBXNativeTarget "GaoDeMapDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDAA63A1C93CDB800201E8C /* Debug */,
+				FCDAA63B1C93CDB800201E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCDAA63C1C93CDB800201E8C /* Build configuration list for PBXNativeTarget "GaoDeMapDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDAA63D1C93CDB800201E8C /* Debug */,
+				FCDAA63E1C93CDB800201E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCDAA6011C93CDB800201E8C /* Project object */;
+}
