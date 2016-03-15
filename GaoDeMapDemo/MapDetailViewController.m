@@ -79,7 +79,17 @@
     
     _search.delegate = self;
     
+    //添加附近
+    //创建定位BUTTON
+    UIButton *nearByButton = [UIButton buttonWithType:UIButtonTypeCustom];
     
+    localButton.frame = CGRectMake(localButton.right + 20, kScreenHeight - 50, 20, 20);
+    
+//    [localButton setBackgroundImage:[UIImage imageNamed:]forState:UIControlStateNormal];
+    
+    [localButton addTarget:self action:@selector(localBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:localButton];
     
 
 }
