@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DBD59F5DDC4EC9EED08F585 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A867DA45B31FFE3405A582 /* libPods.a */; };
+		FCD41EE91C97B58100BCD399 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD41EE81C97B58100BCD399 /* UIViewExt.m */; };
 		FCDAA60E1C93CDB800201E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA60D1C93CDB800201E8C /* main.m */; };
 		FCDAA6111C93CDB800201E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA6101C93CDB800201E8C /* AppDelegate.m */; };
-		FCDAA6141C93CDB800201E8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA6131C93CDB800201E8C /* ViewController.m */; };
 		FCDAA6171C93CDB800201E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDAA6151C93CDB800201E8C /* Main.storyboard */; };
 		FCDAA6191C93CDB800201E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDAA6181C93CDB800201E8C /* Assets.xcassets */; };
-		FCDAA61C1C93CDB800201E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDAA61A1C93CDB800201E8C /* LaunchScreen.storyboard */; };
 		FCDAA6271C93CDB800201E8C /* GaoDeMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA6261C93CDB800201E8C /* GaoDeMapDemoTests.m */; };
 		FCDAA6321C93CDB800201E8C /* GaoDeMapDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA6311C93CDB800201E8C /* GaoDeMapDemoUITests.m */; };
+		FCDAA6471C93CF7B00201E8C /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA6461C93CF7B00201E8C /* ItemViewController.m */; };
+		FCDAA64A1C93CFA700201E8C /* ItemNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA6491C93CFA700201E8C /* ItemNavgationController.m */; };
+		FCDAA64D1C93D38000201E8C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA64C1C93D38000201E8C /* MapViewController.m */; };
+		FCDAA6501C93D39200201E8C /* OutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA64F1C93D39200201E8C /* OutViewController.m */; };
+		FCDAA6531C93D3A100201E8C /* NewListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA6521C93D3A100201E8C /* NewListViewController.m */; };
+		FCDAA65C1C93E9F000201E8C /* MapDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAA65B1C93E9F000201E8C /* MapDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8A867DA45B31FFE3405A582 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F118821028B1E9032178CFAF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F91ACDF711EEAF2C21C90E60 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FCD41EE71C97B58100BCD399 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		FCD41EE81C97B58100BCD399 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		FCDAA6091C93CDB800201E8C /* GaoDeMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaoDeMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDAA60D1C93CDB800201E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCDAA60F1C93CDB800201E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCDAA6101C93CDB800201E8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FCDAA6121C93CDB800201E8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FCDAA6131C93CDB800201E8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FCDAA6161C93CDB800201E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCDAA6181C93CDB800201E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FCDAA61B1C93CDB800201E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCDAA61D1C93CDB800201E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCDAA6221C93CDB800201E8C /* GaoDeMapDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaoDeMapDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDAA6261C93CDB800201E8C /* GaoDeMapDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaoDeMapDemoTests.m; sourceTree = "<group>"; };
@@ -51,6 +59,19 @@
 		FCDAA62D1C93CDB800201E8C /* GaoDeMapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaoDeMapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDAA6311C93CDB800201E8C /* GaoDeMapDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaoDeMapDemoUITests.m; sourceTree = "<group>"; };
 		FCDAA6331C93CDB800201E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDAA6451C93CF7B00201E8C /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		FCDAA6461C93CF7B00201E8C /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
+		FCDAA6481C93CFA700201E8C /* ItemNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemNavgationController.h; sourceTree = "<group>"; };
+		FCDAA6491C93CFA700201E8C /* ItemNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemNavgationController.m; sourceTree = "<group>"; };
+		FCDAA64B1C93D38000201E8C /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		FCDAA64C1C93D38000201E8C /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		FCDAA64E1C93D39200201E8C /* OutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutViewController.h; sourceTree = "<group>"; };
+		FCDAA64F1C93D39200201E8C /* OutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutViewController.m; sourceTree = "<group>"; };
+		FCDAA6511C93D3A100201E8C /* NewListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewListViewController.h; sourceTree = "<group>"; };
+		FCDAA6521C93D3A100201E8C /* NewListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewListViewController.m; sourceTree = "<group>"; };
+		FCDAA6591C93D59800201E8C /* config.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.pch; sourceTree = "<group>"; };
+		FCDAA65A1C93E9F000201E8C /* MapDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDetailViewController.h; sourceTree = "<group>"; };
+		FCDAA65B1C93E9F000201E8C /* MapDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DBD59F5DDC4EC9EED08F585 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		832A0E509416A91142514BFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F91ACDF711EEAF2C21C90E60 /* Pods.debug.xcconfig */,
+				F118821028B1E9032178CFAF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADCDB094CAD33D6A43B9D75C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8A867DA45B31FFE3405A582 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCD41EE31C97B51000BCD399 /* 类目 */ = {
+			isa = PBXGroup;
+			children = (
+				FCD41EE71C97B58100BCD399 /* UIViewExt.h */,
+				FCD41EE81C97B58100BCD399 /* UIViewExt.m */,
+			);
+			name = "类目";
+			sourceTree = "<group>";
+		};
+		FCD41EEA1C980A5200BCD399 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FCDAA64B1C93D38000201E8C /* MapViewController.h */,
+				FCDAA64C1C93D38000201E8C /* MapViewController.m */,
+				FCDAA65A1C93E9F000201E8C /* MapDetailViewController.h */,
+				FCDAA65B1C93E9F000201E8C /* MapDetailViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		FCD41EEB1C980A6A00BCD399 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FCD41EEC1C980A7500BCD399 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		FCDAA6001C93CDB800201E8C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +158,8 @@
 				FCDAA6251C93CDB800201E8C /* GaoDeMapDemoTests */,
 				FCDAA6301C93CDB800201E8C /* GaoDeMapDemoUITests */,
 				FCDAA60A1C93CDB800201E8C /* Products */,
+				832A0E509416A91142514BFD /* Pods */,
+				ADCDB094CAD33D6A43B9D75C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +178,15 @@
 			children = (
 				FCDAA60F1C93CDB800201E8C /* AppDelegate.h */,
 				FCDAA6101C93CDB800201E8C /* AppDelegate.m */,
-				FCDAA6121C93CDB800201E8C /* ViewController.h */,
-				FCDAA6131C93CDB800201E8C /* ViewController.m */,
+				FCDAA6591C93D59800201E8C /* config.pch */,
+				FCD41EE31C97B51000BCD399 /* 类目 */,
+				FCDAA6541C93D51700201E8C /* 资源文件 */,
+				FCDAA6441C93CF5200201E8C /* Main */,
+				FCDAA63F1C93CEF300201E8C /* 导航 */,
+				FCDAA6421C93CF1700201E8C /* 出行 */,
+				FCDAA6411C93CF1400201E8C /* 获取最新数据 */,
 				FCDAA6151C93CDB800201E8C /* Main.storyboard */,
 				FCDAA6181C93CDB800201E8C /* Assets.xcassets */,
-				FCDAA61A1C93CDB800201E8C /* LaunchScreen.storyboard */,
 				FCDAA61D1C93CDB800201E8C /* Info.plist */,
 				FCDAA60C1C93CDB800201E8C /* Supporting Files */,
 			);
@@ -140,6 +219,52 @@
 			path = GaoDeMapDemoUITests;
 			sourceTree = "<group>";
 		};
+		FCDAA63F1C93CEF300201E8C /* 导航 */ = {
+			isa = PBXGroup;
+			children = (
+				FCD41EEC1C980A7500BCD399 /* View */,
+				FCD41EEB1C980A6A00BCD399 /* Model */,
+				FCD41EEA1C980A5200BCD399 /* VC */,
+			);
+			name = "导航";
+			sourceTree = "<group>";
+		};
+		FCDAA6411C93CF1400201E8C /* 获取最新数据 */ = {
+			isa = PBXGroup;
+			children = (
+				FCDAA6511C93D3A100201E8C /* NewListViewController.h */,
+				FCDAA6521C93D3A100201E8C /* NewListViewController.m */,
+			);
+			name = "获取最新数据";
+			sourceTree = "<group>";
+		};
+		FCDAA6421C93CF1700201E8C /* 出行 */ = {
+			isa = PBXGroup;
+			children = (
+				FCDAA64E1C93D39200201E8C /* OutViewController.h */,
+				FCDAA64F1C93D39200201E8C /* OutViewController.m */,
+			);
+			name = "出行";
+			sourceTree = "<group>";
+		};
+		FCDAA6441C93CF5200201E8C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FCDAA6451C93CF7B00201E8C /* ItemViewController.h */,
+				FCDAA6461C93CF7B00201E8C /* ItemViewController.m */,
+				FCDAA6481C93CFA700201E8C /* ItemNavgationController.h */,
+				FCDAA6491C93CFA700201E8C /* ItemNavgationController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		FCDAA6541C93D51700201E8C /* 资源文件 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "资源文件";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCDAA6361C93CDB800201E8C /* Build configuration list for PBXNativeTarget "GaoDeMapDemo" */;
 			buildPhases = (
+				05B71CAAEAA53A9DB1302E84 /* Check Pods Manifest.lock */,
 				FCDAA6051C93CDB800201E8C /* Sources */,
 				FCDAA6061C93CDB800201E8C /* Frameworks */,
 				FCDAA6071C93CDB800201E8C /* Resources */,
+				09B3754CD80181468A4B383A /* Embed Pods Frameworks */,
+				05A818B1B7CF9359A0DFAD9D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +335,7 @@
 				TargetAttributes = {
 					FCDAA6081C93CDB800201E8C = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = EW28GW9LA2;
 					};
 					FCDAA6211C93CDB800201E8C = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -243,7 +372,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCDAA61C1C93CDB800201E8C /* LaunchScreen.storyboard in Resources */,
 				FCDAA6191C93CDB800201E8C /* Assets.xcassets in Resources */,
 				FCDAA6171C93CDB800201E8C /* Main.storyboard in Resources */,
 			);
@@ -265,13 +393,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05A818B1B7CF9359A0DFAD9D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		05B71CAAEAA53A9DB1302E84 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		09B3754CD80181468A4B383A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FCDAA6051C93CDB800201E8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCDAA6141C93CDB800201E8C /* ViewController.m in Sources */,
 				FCDAA6111C93CDB800201E8C /* AppDelegate.m in Sources */,
+				FCDAA6471C93CF7B00201E8C /* ItemViewController.m in Sources */,
+				FCDAA6531C93D3A100201E8C /* NewListViewController.m in Sources */,
+				FCDAA64D1C93D38000201E8C /* MapViewController.m in Sources */,
+				FCD41EE91C97B58100BCD399 /* UIViewExt.m in Sources */,
+				FCDAA65C1C93E9F000201E8C /* MapDetailViewController.m in Sources */,
+				FCDAA6501C93D39200201E8C /* OutViewController.m in Sources */,
+				FCDAA64A1C93CFA700201E8C /* ItemNavgationController.m in Sources */,
 				FCDAA60E1C93CDB800201E8C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,14 +498,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FCDAA61A1C93CDB800201E8C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCDAA61B1C93CDB800201E8C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -353,6 +527,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GaoDeMapDemo/config.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -363,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -394,13 +569,14 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GaoDeMapDemo/config.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -409,23 +585,41 @@
 		};
 		FCDAA6371C93CDB800201E8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91ACDF711EEAF2C21C90E60 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GaoDeMapDemo",
+				);
 				INFOPLIST_FILE = GaoDeMapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.GaoDeMapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		FCDAA6381C93CDB800201E8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F118821028B1E9032178CFAF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GaoDeMapDemo",
+				);
 				INFOPLIST_FILE = GaoDeMapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.GaoDeMapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -487,7 +681,7 @@
 				FCDAA6351C93CDB800201E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FCDAA6361C93CDB800201E8C /* Build configuration list for PBXNativeTarget "GaoDeMapDemo" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +690,7 @@
 				FCDAA6381C93CDB800201E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		FCDAA6391C93CDB800201E8C /* Build configuration list for PBXNativeTarget "GaoDeMapDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +699,7 @@
 				FCDAA63B1C93CDB800201E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		FCDAA63C1C93CDB800201E8C /* Build configuration list for PBXNativeTarget "GaoDeMapDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +708,7 @@
 				FCDAA63E1C93CDB800201E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
